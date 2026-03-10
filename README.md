@@ -37,6 +37,22 @@ src/
   services/
   utils/
 ```
+## POC flow:
+News API → Backend → AI summary → Database → User Feed
+
+## System Architecture Diagram
+User
+   ↓
+Frontend
+   ↓
+Backend API
+   ↓
+News API
+   ↓
+AI Summarization
+   ↓
+Database
+
 
 ## Setup
 
